@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<meta charset="utf-8">
+  <script libname="jquery" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<style type="text/css">
+		/* Escriba aquí su solución */
+		#screen {
+			background: black;
+			color: white;
+		}
+		div.calculator.keyboard button {
+			background: black;
+			color: white;
+		}
+		div.calculator.keyboard button[operation='true'] {
+			border: 1px solid blue;
+		}
+		div.error input[type="text"] {
+			border: 1px solid red;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="calculator keyboard">
+		Number: <input type="text" id="screen"/>
+		<button id="add" operation="true">+</button>
+		<button id="equals">=</button>
+	</div>
+
+	<script type="text/javascript">
+		var acc = 0;
+		var op;
+
+		$(document).ready(function(){
+			$("#screen").click(function(){
+				$(this).val("");
+			});
+			$("#add").click(function(){
+				acc = parseFloat($("#screen").val());
+				op = "+";
+			});
+			$("#equals").click(function(){
+				var n = parseFloat($("#screen").val());
+				if(op === "+"){
+					acc += n;
+				} else {
+					acc = n;
+				}
+				$("#screen").val(acc);
+				acc = 0;
+				op = undefined;
+			});
+		});
+	</script>
+</body>
+</html>

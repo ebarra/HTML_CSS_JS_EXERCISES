@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<meta charset="utf-8">
+  <script libname="jquery" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <style type="text/css">
+	  .error {
+	    color: red;
+	  }
+	</style>
+</head>
+<body>
+
+	<div>
+		Number: <input type="text" id="screen"/>
+		<button id="add">+</button>
+		<button id="equals">=</button>
+	</div>
+
+	<div id="counter">0</div>
+
+	<script type="text/javascript">
+		var acc = 0;
+		var op;
+
+		$(document).ready(function(){
+			$("#screen").click(function(){
+				$(this).val("");
+				$("#screen").removeClass("error");
+			});
+			$("#add").click(function(){
+				acc = parseFloat($("#screen").val());
+				op = "+";
+			});
+			$("#equals").click(function(){
+				var n = parseFloat($("#screen").val());
+				if(op === "+"){
+					acc += n;
+				} else {
+					acc = n;
+				}
+				if((typeof acc != "number")||(isNaN(acc))){
+					acc = "Error";
+					$("#counter").html(parseInt($("#counter").html())+1);
+					$("#screen").addClass("error");
+				} else {
+					$("#screen").removeClass("error");
+				}
+				$("#screen").val(acc);
+				acc = 0;
+				op = undefined;
+			});
+		});
+	</script>
+</body>
+</html>

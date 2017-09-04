@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<meta charset="utf-8">
+  <script libname="jquery" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+</head>
+<body>
+
+	<div>
+		Number: <input type="text" id="screen"/>
+		<button id="add">+</button>
+		<button id="equals">=</button>
+		<button id="fbx">f(b,x)</button>
+	</div>
+
+	<script type="text/javascript">
+		var acc = 0;
+		var op;
+
+		$(document).ready(function(){
+			$("#screen").click(function(){
+				$(this).val("");
+			});
+			$("#add").click(function(){
+				acc = parseFloat($("#screen").val());
+				op = "+";
+			});
+			$("#fbx").click(function(){
+				acc = parseFloat($("#screen").val());
+				op = "fbx";
+			});
+			$("#equals").click(function(){
+				var n = parseFloat($("#screen").val());
+				if(op === "+"){
+					acc += n;
+				} else if(op === "fbx") {
+					var b = acc;
+					var x = n;
+					if((typeof b != "number")||(isNaN(b))||(parseInt(b)!=b)||(b <= 1)||(isNaN(x))||(typeof x != "number")||(x <= 0)){
+						acc = "Error"
+					} else {
+						acc = Math.log10(x)/Math.log10(b);
+					}
+				} else {
+					acc = n;
+				}
+				$("#screen").val(acc);
+				acc = 0;
+				op = undefined;
+			});
+		});
+	</script>
+</body>
+</html>

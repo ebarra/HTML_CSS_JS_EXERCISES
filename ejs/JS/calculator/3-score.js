@@ -110,7 +110,7 @@ var score = function(document){
 	  	return grade;
 	}
 	if($(document).find("div.calculator.keyboard input#test6[operation='true']").css("border-top-color") == "rgb(0, 0, 255)"){
-      grade.feedback.push()
+      grade.feedback.push();
       grade.errors.push("The CSS selector to apply the style to all buttons inside <div class=\"calculator keyboard\">  with attribute 'operation' is not right.");
 	  	return grade;
 	}
