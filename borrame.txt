@@ -1,0 +1,14 @@
+Dada una página HTML que carga jQuery en el head y tiene el siguiente contenido:
+
+<!DOCTYPE html>
+<html> .... <body>
+    <h4 id="id1" >Título</h4>
+    <p id="id2">Coche</p>
+    <div id="id3"></div>
+    <div id="id4" class="Casa">Casa</div>
+    <script type="text/javascript"> ...script con expresiones de abajo ... </script>
+</body>
+</html>
+
+
+ Cómo se evaluarán las siguientes expresiones si estuviesen en el script: $("#id1").html()

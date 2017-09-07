@@ -1,0 +1,768 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<quiz>
+  <question type="category">
+    <category>
+      <text>$course$/3rd_ed_Introduccion_Internet_web</text>
+    </category>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Indicar que respuesta define correctamente al siguiente término:</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar qué respuesta define correctamente al siguiente término: URL</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text />
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text />
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>Protocolo que permite procesar remotamente recursos en un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Dirección que identifica sin ambigüedad un recurso en Internet</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Unidad de información digital de interés para un usuario.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP para traer páginas Web al cliente para su visualización.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje que define la estructura de la información de una página Web.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP ara crear recursos en un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje que define el estilo de visualización de la página Web en el navegador.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP para borrar recursos en un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP para editar recursos en un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje de programación de aplicaciones de cliente.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Dirección interna de la máquina servidora donde se instala un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Indicar que respuesta define correctamente al siguiente término:</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar qué respuesta define correctamente al siguiente término: Recurso</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text />
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text />
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>Protocolo que permite procesar remotamente recursos en un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Dirección que identifica sin ambigüedad un recurso en Internet</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Unidad de información digital de interés para un usuario.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP para traer páginas Web al cliente para su visualización.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje que define la estructura de la información de una página Web.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP ara crear recursos en un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje que define el estilo de visualización de la página Web en el navegador.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP para borrar recursos en un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP para editar recursos en un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje de programación de aplicaciones de cliente.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Dirección interna de la máquina servidora donde se instala un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Indicar que respuesta define correctamente al siguiente término:</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar qué respuesta define correctamente al siguiente término: HTTP</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text />
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text />
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="100">
+      <text>Protocolo que permite procesar remotamente recursos en un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Dirección que identifica sin ambigüedad un recurso en Internet</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Unidad de información digital de interés para un usuario.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP para traer páginas Web al cliente para su visualización.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje que define la estructura de la información de una página Web.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP ara crear recursos en un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje que define el estilo de visualización de la página Web en el navegador.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP para borrar recursos en un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP para editar recursos en un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje de programación de aplicaciones de cliente.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Dirección interna de la máquina servidora donde se instala un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Indicar que respuesta define correctamente al siguiente término:</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar qué respuesta define correctamente al siguiente término: GET</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text />
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text />
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>Protocolo que permite procesar remotamente recursos en un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Dirección que identifica sin ambigüedad un recurso en Internet</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Unidad de información digital de interés para un usuario.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Comando de HTTP para traer páginas Web al cliente para su visualización.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje que define la estructura de la información de una página Web.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP ara crear recursos en un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje que define el estilo de visualización de la página Web en el navegador.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP para borrar recursos en un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP para editar recursos en un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje de programación de aplicaciones de cliente.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Dirección interna de la máquina servidora donde se instala un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Indicar que respuesta define correctamente al siguiente término:</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar qué respuesta define correctamente al siguiente término: POST</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>Protocolo que permite procesar remotamente recursos en un servidor.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Dirección que identifica sin ambigüedad un recurso en Internet</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Unidad de información digital de interés para un usuario.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP para traer páginas Web al cliente para su visualización.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje que define la estructura de la información de una página Web.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Comando de HTTP para crear recursos en un servidor.</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje que define el estilo de visualización de la página Web en el navegador.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP para borrar recursos en un servidor.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP para editar recursos en un servidor.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje de programación de aplicaciones de cliente.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Dirección interna de la máquina servidora donde se instala un servidor.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Indicar que respuesta define correctamente al siguiente término:</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar qué respuesta define correctamente al siguiente término: PUT</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>Protocolo que permite procesar remotamente recursos en un servidor.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Dirección que identifica sin ambigüedad un recurso en Internet</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Unidad de información digital de interés para un usuario.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP para traer páginas Web al cliente para su visualización.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje que define la estructura de la información de una página Web.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP ara crear recursos en un servidor.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje que define el estilo de visualización de la página Web en el navegador.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP para borrar recursos en un servidor.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Comando de HTTP para editar recursos en un servidor.</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje de programación de aplicaciones de cliente.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Dirección interna de la máquina servidora donde se instala un servidor.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Indicar que respuesta define correctamente al siguiente término:</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar qué respuesta define correctamente al siguiente término: DELETE</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>Protocolo que permite procesar remotamente recursos en un servidor.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Dirección que identifica sin ambigüedad un recurso en Internet</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Unidad de información digital de interés para un usuario.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP para traer páginas Web al cliente para su visualización.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje que define la estructura de la información de una página Web.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP ara crear recursos en un servidor.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje que define el estilo de visualización de la página Web en el navegador.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Comando de HTTP para borrar recursos en un servidor.</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP para editar recursos en un servidor.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje de programación de aplicaciones de cliente.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Dirección interna de la máquina servidora donde se instala un servidor.</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Indicar que respuesta define correctamente a cada término:</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar qué respuesta define correctamente al siguiente término: PUERTO</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text />
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text />
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>Protocolo que permite procesar remotamente recursos en un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Dirección que identifica sin ambigüedad un recurso en Internet</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Unidad de información digital de interés para un usuario.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP para traer páginas Web al cliente para su visualización.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje que define la estructura de la información de una página Web.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP ara crear recursos en un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje que define el estilo de visualización de la página Web en el navegador.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP para borrar recursos en un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Comando de HTTP para editar recursos en un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Lenguaje de programación de aplicaciones de cliente.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Dirección interna de la máquina servidora donde se instala un servidor.</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+  </question>
+</quiz>

@@ -1,0 +1,725 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<quiz>
+  <question type="category">
+    <category>
+      <text>$course$/JavaScript - Tipos objetos y clases</text>
+    </category>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 1</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar la siguiente expresión, después de haber
+ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+var a = {x:6, y:4, z:[1, 2], t:"blanco", suma:function(){return this.x+this.y;}};
+&lt;br&gt;&lt;br&gt; typeof ("10"+23)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>"number"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>"string"</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"boolean"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"object"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"array"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"function"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"undefined"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 2</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar la siguiente expresión, después de haber
+ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+var a = {x:6, y:4, z:[1, 2], t:"blanco", suma:function(){return this.x+this.y;}};
+&lt;br&gt;&lt;br&gt;
+typeof (a)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>"number"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"string"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"boolean"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>"object"</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"array"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"function"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"undefined"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 3</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar la siguiente expresión, después de haber
+ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+typeof (a.x)
+var a = {x:6, y:4, z:[1, 2], t:"blanco", suma:function(){return this.x+this.y;}};
+&lt;br&gt;&lt;br&gt; typeof (a.x)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="100">
+      <text>"number"</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"string"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"boolean"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"object"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"array"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"function"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"undefined"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 4</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar la siguiente expresión, después de haber
+ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+var a = {x:6, y:4, z:[1, 2], t:"blanco", suma:function(){return this.x+this.y;}};
+&lt;br&gt;&lt;br&gt;
+typeof (a.y)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="100">
+      <text>"number"</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"string"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"boolean"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"object"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"array"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"function"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"undefined"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 5</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar la siguiente expresión, después de haber
+ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+var a = {x:6, y:4, z:[1, 2], t:"blanco", suma:function(){return this.x+this.y;}};
+&lt;br&gt;&lt;br&gt;
+typeof (a.z)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>"number"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"string"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"boolean"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>"object"</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"array"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"function"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"undefined"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 6</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar la siguiente expresión, después de haber
+ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+var a = {x:6, y:4, z:[1, 2], t:"blanco", suma:function(){return this.x+this.y;}};
+&lt;br&gt;&lt;br&gt;
+typeof (a.z[0])</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="100">
+      <text>"number"</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"string"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"boolean"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"object"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"array"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"function"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"undefined"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 7</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar la siguiente expresión, después de haber
+ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+var a = {x:6, y:4, z:[1, 2], t:"blanco", suma:function(){return this.x+this.y;}};
+&lt;br&gt;&lt;br&gt; 
+typeof (a.z[3])</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>"number"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"string"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"boolean"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"object"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"array"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"function"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>"undefined"</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 8</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar la siguiente expresión, después de haber
+ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+var a = {x:6, y:4, z:[1, 2], t:"blanco", suma:function(){return this.x+this.y;}};
+&lt;br&gt;&lt;br&gt;
+typeof (a.t)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>"number"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>"string"</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"boolean"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"object"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"array"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"function"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"undefined"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 9</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar la siguiente expresión, después de haber
+ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+var a = {x:6, y:4, z:[1, 2], t:"blanco", suma:function(){return this.x+this.y;}};
+&lt;br&gt;&lt;br&gt;
+typeof (a.suma)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>"number"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"string"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"boolean"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"object"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"array"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>"function"</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"undefined"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text />
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar la siguiente expresión, después de haber
+ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+var a = {x:6, y:4, z:[1, 2], t:"blanco", suma:function(){return this.x+this.y;}};
+&lt;br&gt;&lt;br&gt;
+typeof (a.suma())</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+  </question>
+</quiz>

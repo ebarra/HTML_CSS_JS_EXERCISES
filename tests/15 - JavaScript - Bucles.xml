@@ -1,0 +1,1048 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<quiz>
+  <question type="category">
+    <category>
+      <text>$course$/JavaScript - Bucles</text>
+    </category>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 1</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dadas las siguientes definiciones de funciones:
+&lt;br&gt;&lt;br&gt;
+// f_1 calcula potencias de 2. &lt;br&gt;
+// El exponente es la parte entera de x. &lt;br&gt;&lt;br&gt;
+
+function f_1 (x) { &lt;br&gt;
+x = Math.floor(x); &lt;br&gt;
+for (var res = 1; 0 &lt; x; x-- ) { &lt;br&gt;
+res = res * 2; &lt;br&gt;
+} &lt;br&gt;
+return res; &lt;br&gt;
+} &lt;br&gt;
+
+&lt;br&gt;
+// f_2 determina si parte entera de x es un número primo, &lt;br&gt;
+// es decir si no es divisible por un número menor. &lt;br&gt;
+&lt;br&gt;
+function f_2 (x) { &lt;br&gt;
+x = Math.floor(x); &lt;br&gt;
+var i = 2; &lt;br&gt;
+while ( i &lt; x ) { &lt;br&gt;
+if ((x % i) === 0) { return false; }; &lt;br&gt;
+i = i + 1; &lt;br&gt;
+} &lt;br&gt;
+return true; &lt;br&gt;
+} &lt;br&gt;
+&lt;br&gt;
+Cómo se evaluarán las siguientes expresiones: f_1 (1.5)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>2</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>8</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>true</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 2</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dadas las siguientes definiciones de funciones:
+&lt;br&gt;&lt;br&gt;
+// f_1 calcula potencias de 2. &lt;br&gt;
+// El exponente es la parte entera de x. &lt;br&gt;&lt;br&gt;
+
+function f_1 (x) { &lt;br&gt;
+x = Math.floor(x); &lt;br&gt;
+for (var res = 1; 0 &lt; x; x-- ) { &lt;br&gt;
+res = res * 2; &lt;br&gt;
+} &lt;br&gt;
+return res; &lt;br&gt;
+} &lt;br&gt;
+
+&lt;br&gt;
+// f_2 determina si parte entera de x es un número primo, &lt;br&gt;
+// es decir si no es divisible por un número menor. &lt;br&gt;
+&lt;br&gt;
+function f_2 (x) { &lt;br&gt;
+x = Math.floor(x); &lt;br&gt;
+var i = 2; &lt;br&gt;
+while ( i &lt; x ) { &lt;br&gt;
+if ((x % i) === 0) { return false; }; &lt;br&gt;
+i = i + 1; &lt;br&gt;
+} &lt;br&gt;
+return true; &lt;br&gt;
+} &lt;br&gt;
+&lt;br&gt;
+Cómo se evaluarán las siguientes expresiones: f_1 (1)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>2</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>8</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>true</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 3</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dadas las siguientes definiciones de funciones:
+&lt;br&gt;&lt;br&gt;
+// f_1 calcula potencias de 2. &lt;br&gt;
+// El exponente es la parte entera de x. &lt;br&gt;&lt;br&gt;
+
+function f_1 (x) { &lt;br&gt;
+x = Math.floor(x); &lt;br&gt;
+for (var res = 1; 0 &lt; x; x-- ) { &lt;br&gt;
+res = res * 2; &lt;br&gt;
+} &lt;br&gt;
+return res; &lt;br&gt;
+} &lt;br&gt;
+
+&lt;br&gt;
+// f_2 determina si parte entera de x es un número primo, &lt;br&gt;
+// es decir si no es divisible por un número menor. &lt;br&gt;
+&lt;br&gt;
+function f_2 (x) { &lt;br&gt;
+x = Math.floor(x); &lt;br&gt;
+var i = 2; &lt;br&gt;
+while ( i &lt; x ) { &lt;br&gt;
+if ((x % i) === 0) { return false; }; &lt;br&gt;
+i = i + 1; &lt;br&gt;
+} &lt;br&gt;
+return true; &lt;br&gt;
+} &lt;br&gt;
+&lt;br&gt;
+Cómo se evaluarán las siguientes expresiones: f_1 (2.2)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>2</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>5</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>8</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>true</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 4</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dadas las siguientes definiciones de funciones:
+&lt;br&gt;&lt;br&gt;
+// f_1 calcula potencias de 2. &lt;br&gt;
+// El exponente es la parte entera de x. &lt;br&gt;&lt;br&gt;
+
+function f_1 (x) { &lt;br&gt;
+x = Math.floor(x); &lt;br&gt;
+for (var res = 1; 0 &lt; x; x-- ) { &lt;br&gt;
+res = res * 2; &lt;br&gt;
+} &lt;br&gt;
+return res; &lt;br&gt;
+} &lt;br&gt;
+
+&lt;br&gt;
+// f_2 determina si parte entera de x es un número primo, &lt;br&gt;
+// es decir si no es divisible por un número menor. &lt;br&gt;
+&lt;br&gt;
+function f_2 (x) { &lt;br&gt;
+x = Math.floor(x); &lt;br&gt;
+var i = 2; &lt;br&gt;
+while ( i &lt; x ) { &lt;br&gt;
+if ((x % i) === 0) { return false; }; &lt;br&gt;
+i = i + 1; &lt;br&gt;
+} &lt;br&gt;
+return true; &lt;br&gt;
+} &lt;br&gt;
+&lt;br&gt;
+Cómo se evaluarán las siguientes expresiones: f_1 (2)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>2</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>4</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>8</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>true</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 5</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dadas las siguientes definiciones de funciones:
+&lt;br&gt;&lt;br&gt;
+// f_1 calcula potencias de 2. &lt;br&gt;
+// El exponente es la parte entera de x. &lt;br&gt;&lt;br&gt;
+
+function f_1 (x) { &lt;br&gt;
+x = Math.floor(x); &lt;br&gt;
+for (var res = 1; 0 &lt; x; x-- ) { &lt;br&gt;
+res = res * 2; &lt;br&gt;
+} &lt;br&gt;
+return res; &lt;br&gt;
+} &lt;br&gt;
+
+&lt;br&gt;
+// f_2 determina si parte entera de x es un número primo, &lt;br&gt;
+// es decir si no es divisible por un número menor. &lt;br&gt;
+&lt;br&gt;
+function f_2 (x) { &lt;br&gt;
+x = Math.floor(x); &lt;br&gt;
+var i = 2; &lt;br&gt;
+while ( i &lt; x ) { &lt;br&gt;
+if ((x % i) === 0) { return false; }; &lt;br&gt;
+i = i + 1; &lt;br&gt;
+} &lt;br&gt;
+return true; &lt;br&gt;
+} &lt;br&gt;
+&lt;br&gt;
+Cómo se evaluarán las siguientes expresiones: f_1 (3.1)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>2</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>8</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>true</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 6</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dadas las siguientes definiciones de funciones:
+&lt;br&gt;&lt;br&gt;
+// f_1 calcula potencias de 2. &lt;br&gt;
+// El exponente es la parte entera de x. &lt;br&gt;&lt;br&gt;
+
+function f_1 (x) { &lt;br&gt;
+x = Math.floor(x); &lt;br&gt;
+for (var res = 1; 0 &lt; x; x-- ) { &lt;br&gt;
+res = res * 2; &lt;br&gt;
+} &lt;br&gt;
+return res; &lt;br&gt;
+} &lt;br&gt;
+
+&lt;br&gt;
+// f_2 determina si parte entera de x es un número primo, &lt;br&gt;
+// es decir si no es divisible por un número menor. &lt;br&gt;
+&lt;br&gt;
+function f_2 (x) { &lt;br&gt;
+x = Math.floor(x); &lt;br&gt;
+var i = 2; &lt;br&gt;
+while ( i &lt; x ) { &lt;br&gt;
+if ((x % i) === 0) { return false; }; &lt;br&gt;
+i = i + 1; &lt;br&gt;
+} &lt;br&gt;
+return true; &lt;br&gt;
+} &lt;br&gt;
+&lt;br&gt;
+Cómo se evaluarán las siguientes expresiones: f_2 (4.3)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>2</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>8</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>true</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>false</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 7</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dadas las siguientes definiciones de funciones:
+&lt;br&gt;&lt;br&gt;
+// f_1 calcula potencias de 2. &lt;br&gt;
+// El exponente es la parte entera de x. &lt;br&gt;&lt;br&gt;
+
+function f_1 (x) { &lt;br&gt;
+x = Math.floor(x); &lt;br&gt;
+for (var res = 1; 0 &lt; x; x-- ) { &lt;br&gt;
+res = res * 2; &lt;br&gt;
+} &lt;br&gt;
+return res; &lt;br&gt;
+} &lt;br&gt;
+
+&lt;br&gt;
+// f_2 determina si parte entera de x es un número primo, &lt;br&gt;
+// es decir si no es divisible por un número menor. &lt;br&gt;
+&lt;br&gt;
+function f_2 (x) { &lt;br&gt;
+x = Math.floor(x); &lt;br&gt;
+var i = 2; &lt;br&gt;
+while ( i &lt; x ) { &lt;br&gt;
+if ((x % i) === 0) { return false; }; &lt;br&gt;
+i = i + 1; &lt;br&gt;
+} &lt;br&gt;
+return true; &lt;br&gt;
+} &lt;br&gt;
+&lt;br&gt;
+Cómo se evaluarán las siguientes expresiones: f_2 (4)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>2</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>8</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>true</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>false</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 8</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dadas las siguientes definiciones de funciones:
+&lt;br&gt;&lt;br&gt;
+// f_1 calcula potencias de 2. &lt;br&gt;
+// El exponente es la parte entera de x. &lt;br&gt;&lt;br&gt;
+
+function f_1 (x) { &lt;br&gt;
+x = Math.floor(x); &lt;br&gt;
+for (var res = 1; 0 &lt; x; x-- ) { &lt;br&gt;
+res = res * 2; &lt;br&gt;
+} &lt;br&gt;
+return res; &lt;br&gt;
+} &lt;br&gt;
+
+&lt;br&gt;
+// f_2 determina si parte entera de x es un número primo, &lt;br&gt;
+// es decir si no es divisible por un número menor. &lt;br&gt;
+&lt;br&gt;
+function f_2 (x) { &lt;br&gt;
+x = Math.floor(x); &lt;br&gt;
+var i = 2; &lt;br&gt;
+while ( i &lt; x ) { &lt;br&gt;
+if ((x % i) === 0) { return false; }; &lt;br&gt;
+i = i + 1; &lt;br&gt;
+} &lt;br&gt;
+return true; &lt;br&gt;
+} &lt;br&gt;
+&lt;br&gt;
+Cómo se evaluarán las siguientes expresiones: f_2 (5)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>2</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>8</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>true</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 9</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dadas las siguientes definiciones de funciones:
+&lt;br&gt;&lt;br&gt;
+// f_1 calcula potencias de 2. &lt;br&gt;
+// El exponente es la parte entera de x. &lt;br&gt;&lt;br&gt;
+
+function f_1 (x) { &lt;br&gt;
+x = Math.floor(x); &lt;br&gt;
+for (var res = 1; 0 &lt; x; x-- ) { &lt;br&gt;
+res = res * 2; &lt;br&gt;
+} &lt;br&gt;
+return res; &lt;br&gt;
+} &lt;br&gt;
+
+&lt;br&gt;
+// f_2 determina si parte entera de x es un número primo, &lt;br&gt;
+// es decir si no es divisible por un número menor. &lt;br&gt;
+&lt;br&gt;
+function f_2 (x) { &lt;br&gt;
+x = Math.floor(x); &lt;br&gt;
+var i = 2; &lt;br&gt;
+while ( i &lt; x ) { &lt;br&gt;
+if ((x % i) === 0) { return false; }; &lt;br&gt;
+i = i + 1; &lt;br&gt;
+} &lt;br&gt;
+return true; &lt;br&gt;
+} &lt;br&gt;
+&lt;br&gt;
+Cómo se evaluarán las siguientes expresiones: f_2 (6.4)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>2</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>8</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>true</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>false</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 10</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dadas las siguientes definiciones de funciones:
+&lt;br&gt;&lt;br&gt;
+// f_1 calcula potencias de 2. &lt;br&gt;
+// El exponente es la parte entera de x. &lt;br&gt;&lt;br&gt;
+
+function f_1 (x) { &lt;br&gt;
+x = Math.floor(x); &lt;br&gt;
+for (var res = 1; 0 &lt; x; x-- ) { &lt;br&gt;
+res = res * 2; &lt;br&gt;
+} &lt;br&gt;
+return res; &lt;br&gt;
+} &lt;br&gt;
+
+&lt;br&gt;
+// f_2 determina si parte entera de x es un número primo, &lt;br&gt;
+// es decir si no es divisible por un número menor. &lt;br&gt;
+&lt;br&gt;
+function f_2 (x) { &lt;br&gt;
+x = Math.floor(x); &lt;br&gt;
+var i = 2; &lt;br&gt;
+while ( i &lt; x ) { &lt;br&gt;
+if ((x % i) === 0) { return false; }; &lt;br&gt;
+i = i + 1; &lt;br&gt;
+} &lt;br&gt;
+return true; &lt;br&gt;
+} &lt;br&gt;
+&lt;br&gt;
+Cómo se evaluarán las siguientes expresiones: f_2 (7)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>2</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>8</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>true</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

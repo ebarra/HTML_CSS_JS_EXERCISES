@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<quiz>
+  <question type="category">
+    <category>
+      <text>$course$/5_ED_Ignacio_Herencia_CSS</text>
+    </category>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 1</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Analizando el árbol del siguiente documento HTML:
+&lt;br&gt;&lt;br&gt;
+&amp;lt;!doctype html&amp;gt;
+&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+&amp;lt;title&amp;gt;Herencia CSS&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+
+   &amp;lt;ul&amp;gt;
+
+	&amp;lt;li&amp;gt;Elemento de lista 1&amp;lt;/li&amp;gt;
+
+	&amp;lt;li&amp;gt;Elemento de lista 2&amp;lt;/li&amp;gt;
+
+	&amp;lt;li&amp;gt;Elemento de lista 3&amp;lt;/li&amp;gt;
+
+   &amp;lt;/ul&amp;gt;
+
+&amp;lt;/body&amp;gt;
+
+&amp;lt;/html&amp;gt;
+&lt;br&gt;&lt;br&gt;
+La etiqueta &amp;lt;ul&amp;gt; seria el "parent " de:</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>body</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>el propio &amp;lt;ul&amp;gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>los &amp;lt;li&amp;gt;</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>html</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 2</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Analizando el árbol del siguiente documento HTML:
+&lt;br&gt;&lt;br&gt;
+
+&amp;lt;!doctype html&amp;gt;
+&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+&amp;lt;title&amp;gt;Herencia CSS&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+   &amp;lt;ul&amp;gt;
+	&amp;lt;li&amp;gt;Elemento de lista 1&amp;lt;/li&amp;gt;
+	&amp;lt;li&amp;gt;Elemento de lista 2&amp;lt;/li&amp;gt;
+	&amp;lt;li&amp;gt;Elemento de lista 3&amp;lt;/li&amp;gt;
+   &amp;lt;/ul&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;br&gt;&lt;br&gt;
+
+¿body es "ancestor" de title?</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>Sí</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>No</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 3</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Al analizar el árbol del siguiente documento HTML:
+&lt;br&gt;&lt;br&gt;
+&amp;lt;!doctype html&amp;gt;
+&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+&amp;lt;title&amp;gt;Herencia CSS&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+   &amp;lt;ul&amp;gt;
+     &amp;lt;li&amp;gt;Elemento de lista 1&amp;lt;/li&amp;gt;
+     &amp;lt;li&amp;gt;Elemento de lista 2&amp;lt;/li&amp;gt;
+     &amp;lt;li&amp;gt;Elemento de lista 3&amp;lt;/li&amp;gt;
+   &amp;lt;/ul&amp;gt;
+&amp;lt;p&amp;gt;Esto es un p&amp;aacute;rrafo&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;br&gt;&lt;br&gt;
+La etiqueta p seria el hijo "child" de:</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="100">
+      <text>body</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>ul</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>El último li</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>De todos los anteriores</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 4</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Al analizar el árbol del siguiente documento HTML:
+&lt;br&gt;&lt;br&gt;
+&amp;lt;!doctype html&amp;gt;
+&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+&amp;lt;title&amp;gt;Herencia CSS&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+   &amp;lt;ul&amp;gt;
+      &amp;lt;li&amp;gt;Elemento de lista 1&amp;lt;/li&amp;gt;
+      &amp;lt;li&amp;gt;Elemento de lista 2&amp;lt;/li&amp;gt;
+      &amp;lt;li&amp;gt;Elemento de lista 3&amp;lt;/li&amp;gt;
+   &amp;lt;/ul&amp;gt;
+&amp;lt;p&amp;gt;Esto es un p&amp;aacute;rrafo&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;br&gt;&lt;br&gt;
+Las etiquetasque  serian hermanos "siblings" son:</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="100">
+      <text>los tres li</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>los tres li y el p</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>ul</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Las respuestas a y b son correctas</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 5</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Al analizar el árbol del siguiente documento HTML:
+&lt;br&gt;&lt;br&gt;
+&amp;lt;!doctype html&amp;gt;
+&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+&amp;lt;title&amp;gt;Herencia CSS&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+  &amp;lt;ul&amp;gt;
+    &amp;lt;li&amp;gt;Elemento de lista 1&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;Elemento de lista 2&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;Elemento de lista 3&amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+&amp;lt;p&amp;gt;Esto es un p&amp;aacute;rrafo&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;br&gt;&lt;br&gt;
+Cuál de las siguientes afirmaciones es incorrecta:</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>ul es hijo "child" de body</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>p es hijo "child" de body </text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>p es hijo "child" de ul</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>li es hijo "child" de ul</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 6</text>
+    </name>
+    <questiontext format="HTML">
+      <text>¿Qué regla CSS ganaría en la presentación en el navegador?</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>Estilo por defecto del navegador - h2 { color: black; }</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Estilo fijado por el diseñador - h2 { color: green; }</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 7</text>
+    </name>
+    <questiontext format="HTML">
+      <text>¿Qué regla CSS ganaría en la presentación en el navegador?</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>Estilo por defecto del navegador - h2 { color: black; }</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Estilo fijado por el usuario - h2 { color: green; }</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Estilo en hoja CSS externa o en el Head - h2 { color: blue; }</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Estilo en hoja CSS externa o en el Head - h2 { color: lime !important; }</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 8</text>
+    </name>
+    <questiontext format="HTML">
+      <text>¿Qué regla CSS ganaría en la presentación en el navegador?</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="100">
+      <text>Estilo en hoja CSS externa o en el Head - h2.news { color: green; }</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Estilo en hoja CSS externa o en el Head - h2 { color: blue; }</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 9</text>
+    </name>
+    <questiontext format="HTML">
+      <text>¿Qué regla CSS ganaría en la presentación en el navegador?</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>Estilo en hoja CSS externa o en el Head - h2 { color: blue; }</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>En la línea siguiente del CSS - h2 { color: purple; }</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 10</text>
+    </name>
+    <questiontext format="HTML">
+      <text>¿Qué regla CSS ganaría en la presentación en el navegador?</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="100">
+      <text>Estilo en hoja CSS externa o en el Head - #caja h2 { color: lime; }</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Estilo en hoja CSS externa o en el Head - h2.news { color: green; }</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Estilo en hoja CSS externa o en el Head - h2 { color: blue; }</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 11</text>
+    </name>
+    <questiontext format="HTML">
+      <text>¿Qué regla CSS ganaría en la presentación en el navegador?</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>Estilo en hoja CSS externa o en el Head - #caja h2 { color: lime; }</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Estilo en hoja CSS externa o en el Head - h2.news { color: green; }</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Estilo en hoja CSS externa o en el Head - h2 { color: blue; }</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Estilo en hoja CSS externa o en el Head - h2 { color: purple; }</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Estilo en hoja CSS externa o en el Head - div#caja h2 { color: black; }</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<quiz>
+  <question type="category">
+    <category>
+      <text>$course$/JavaScript - Notación Array, propiedades dinámicas  for_in DOM</text>
+    </category>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 1</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar las siguientes expresiones, después de haber ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+
+var pan = {blanco:6, de_ajo:5, de_semillas:{de_avena:3, de_lino:4}}; &lt;br&gt;
+delete pan.de_ajo; &lt;br&gt;
+pan.de_queso = 3; &lt;br&gt;
+var p = "blanco"; &lt;br&gt;
+for (var x in pan.de_semillas) { pan.de_semillas[x] = 6;}; &lt;br&gt;&lt;br&gt; 
+pan.de_semillas.de_lino</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>3</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>6</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>{de_avena:6,de_lino:6}</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>undefined</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>ErrorDeEjecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 2</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar las siguientes expresiones, después de haber ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+
+var pan = {blanco:6, de_ajo:5, de_semillas:{de_avena:3, de_lino:4}}; &lt;br&gt;
+delete pan.de_ajo; &lt;br&gt;
+pan.de_queso = 3; &lt;br&gt;
+var p = "blanco"; &lt;br&gt;
+for (var x in pan.de_semillas) { pan.de_semillas[x] = 6;}; &lt;br&gt;&lt;br&gt; 
+pan.de_semillas.de_avena</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>3</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>6</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>{de_avena:6,de_lino:6}</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>undefined</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>ErrorDeEjecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 3</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar las siguientes expresiones, después de haber ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+
+var pan = {blanco:6, de_ajo:5, de_semillas:{de_avena:3, de_lino:4}}; &lt;br&gt;
+delete pan.de_ajo; &lt;br&gt;
+pan.de_queso = 3; &lt;br&gt;
+var p = "blanco"; &lt;br&gt;
+for (var x in pan.de_semillas) { pan.de_semillas[x] = 6;}; &lt;br&gt;&lt;br&gt; 
+pan.sin_semillas.de_lino</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>3</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>6</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>{de_avena:6,de_lino:6}</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>undefined</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>ErrorDeEjecución</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 4</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar las siguientes expresiones, después de haber ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+
+var pan = {blanco:6, de_ajo:5, de_semillas:{de_avena:3, de_lino:4}}; &lt;br&gt;
+delete pan.de_ajo; &lt;br&gt;
+pan.de_queso = 3; &lt;br&gt;
+var p = "blanco"; &lt;br&gt;
+for (var x in pan.de_semillas) { pan.de_semillas[x] = 6;}; &lt;br&gt;&lt;br&gt; 
+pan.de_semillas</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>3</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>6</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>{de_avena:6,de_lino:6}</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>undefined</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>ErrorDeEjecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 5</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar las siguientes expresiones, después de haber ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+
+var pan = {blanco:6, de_ajo:5, de_semillas:{de_avena:3, de_lino:4}}; &lt;br&gt;
+delete pan.de_ajo; &lt;br&gt;
+pan.de_queso = 3; &lt;br&gt;
+var p = "blanco"; &lt;br&gt;
+for (var x in pan.de_semillas) { pan.de_semillas[x] = 6;}; &lt;br&gt;&lt;br&gt; 
+pan.de_ajo</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>3</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>6</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>{de_avena:6,de_lino:6}</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>undefined</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>ErrorDeEjecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 6</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar las siguientes expresiones, después de haber ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+
+var pan = {blanco:6, de_ajo:5, de_semillas:{de_avena:3, de_lino:4}}; &lt;br&gt;
+delete pan.de_ajo; &lt;br&gt;
+pan.de_queso = 3; &lt;br&gt;
+var p = "blanco"; &lt;br&gt;
+for (var x in pan.de_semillas) { pan.de_semillas[x] = 6;}; &lt;br&gt;&lt;br&gt;
+pan.p</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text />
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text />
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>3</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>6</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>{de_avena:6,de_lino:6}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>undefined</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>ErrorDeEjecución</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 7</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar las siguientes expresiones, después de haber ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+
+var pan = {blanco:6, de_ajo:5, de_semillas:{de_avena:3, de_lino:4}}; &lt;br&gt;
+delete pan.de_ajo; &lt;br&gt;
+pan.de_queso = 3; &lt;br&gt;
+var p = "blanco"; &lt;br&gt;
+for (var x in pan.de_semillas) { pan.de_semillas[x] = 6;}; &lt;br&gt;&lt;br&gt;
+pan[p]</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text />
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text />
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>3</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>6</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>{de_avena:6,de_lino:6}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>undefined</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>ErrorDeEjecución</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 8</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar las siguientes expresiones, después de haber ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+
+var pan = {blanco:6, de_ajo:5, de_semillas:{de_avena:3, de_lino:4}}; &lt;br&gt;
+delete pan.de_ajo; &lt;br&gt;
+pan.de_queso = 3; &lt;br&gt;
+var p = "blanco"; &lt;br&gt;
+for (var x in pan.de_semillas) { pan.de_semillas[x] = 6;}; &lt;br&gt;&lt;br&gt; 
+pan.blanco</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text />
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text />
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>3</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>6</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>{de_avena:6,de_lino:6}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>undefined</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>ErrorDeEjecución</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 9</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar las siguientes expresiones, después de haber ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+
+var pan = {blanco:6, de_ajo:5, de_semillas:{de_avena:3, de_lino:4}}; &lt;br&gt;
+delete pan.de_ajo; &lt;br&gt;
+pan.de_queso = 3; &lt;br&gt;
+var p = "blanco"; &lt;br&gt;
+for (var x in pan.de_semillas) { pan.de_semillas[x] = 6;}; &lt;br&gt;&lt;br&gt;</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="100">
+      <text>3</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>6</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>{de_avena:6,de_lino:6}</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>undefined</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>ErrorDeEjecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 10</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar las siguientes expresiones, después de haber ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+
+var pan = {blanco:6, de_ajo:5, de_semillas:{de_avena:3, de_lino:4}}; &lt;br&gt;
+delete pan.de_ajo; &lt;br&gt;
+pan.de_queso = 3; &lt;br&gt;
+var p = "blanco"; &lt;br&gt;
+for (var x in pan.de_semillas) { pan.de_semillas[x] = 6;}; &lt;br&gt;&lt;br&gt;
+pan['blanco']</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>3</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>6</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>{de_avena:6,de_lino:6}</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>undefined</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>ErrorDeEjecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 11</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar las siguientes expresiones, después de haber ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+
+var pan = {blanco:6, de_ajo:5, de_semillas:{de_avena:3, de_lino:4}}; &lt;br&gt;
+delete pan.de_ajo; &lt;br&gt;
+pan.de_queso = 3; &lt;br&gt;
+var p = "blanco"; &lt;br&gt;
+for (var x in pan.de_semillas) { pan.de_semillas[x] = 6;}; &lt;br&gt;&lt;br&gt;
+pan['integral'].de_semillas</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text />
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text />
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>3</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>6</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>{de_avena:6,de_lino:6}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>undefined</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>ErrorDeEjecución</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 12</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar las siguientes expresiones, después de haber ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+
+var pan = {blanco:6, de_ajo:5, de_semillas:{de_avena:3, de_lino:4}}; &lt;br&gt;
+delete pan.de_ajo; &lt;br&gt;
+pan.de_queso = 3; &lt;br&gt;
+var p = "blanco"; &lt;br&gt;
+for (var x in pan.de_semillas) { pan.de_semillas[x] = 6;}; &lt;br&gt;&lt;br&gt;
+pan['blanco']['integral']</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text />
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text />
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>3</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>6</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>{de_avena:6,de_lino:6}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>undefined</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>ErrorDeEjecución</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 13</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar las siguientes expresiones, después de haber ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+
+var pan = {blanco:6, de_ajo:5, de_semillas:{de_avena:3, de_lino:4}}; &lt;br&gt;
+delete pan.de_ajo; &lt;br&gt;
+pan.de_queso = 3; &lt;br&gt;
+var p = "blanco"; &lt;br&gt;
+for (var x in pan.de_semillas) { pan.de_semillas[x] = 6;}; &lt;br&gt;&lt;br&gt;
+pan['de_ajo']</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text />
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text />
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>3</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>6</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>{de_avena:6,de_lino:6}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>undefined</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>ErrorDeEjecución</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 14</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar las siguientes expresiones, después de haber ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+
+var pan = {blanco:6, de_ajo:5, de_semillas:{de_avena:3, de_lino:4}}; &lt;br&gt;
+delete pan.de_ajo; &lt;br&gt;
+pan.de_queso = 3; &lt;br&gt;
+var p = "blanco"; &lt;br&gt;
+for (var x in pan.de_semillas) { pan.de_semillas[x] = 6;}; &lt;br&gt;&lt;br&gt;
+pan.de_ajo.integral</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text />
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text />
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>3</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>6</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>{de_avena:6,de_lino:6}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>undefined</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>ErrorDeEjecución</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 15</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Indicar el resultado de evaluar las siguientes expresiones, después de haber ejecutado las siguientes sentencias:
+&lt;br&gt;&lt;br&gt;
+
+var pan = {blanco:6, de_ajo:5, de_semillas:{de_avena:3, de_lino:4}}; &lt;br&gt;
+delete pan.de_ajo; &lt;br&gt;
+pan.de_queso = 3; &lt;br&gt;
+var p = "blanco"; &lt;br&gt;
+for (var x in pan.de_semillas) { pan.de_semillas[x] = 6;}; &lt;br&gt;&lt;br&gt;
+pan.[de_ajo].integral</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text />
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text />
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>3</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>6</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>{de_avena:6,de_lino:6}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>undefined</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>ErrorDeEjecución</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+  </question>
+</quiz>

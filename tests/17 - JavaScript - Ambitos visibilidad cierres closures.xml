@@ -1,0 +1,881 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<quiz>
+  <question type="category">
+    <category>
+      <text>$course$/JavaScript - Ambitos visibilidad cierres closures</text>
+    </category>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 1</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Si tenemos las siguientes definiciones de funciones:
+&lt;br&gt;&lt;br&gt;
+
+function f_1 (x) { &lt;br&gt;
+function cero () { return 0; }; &lt;br&gt;
+function uno () { return 1; }; &lt;br&gt;
+if (x) { return uno; } else { return cero; } &lt;br&gt;
+}; &lt;br&gt;&lt;br&gt;
+var f_2 = function () { &lt;br&gt;
+var x = 1; &lt;br&gt;
+return function () { return x = x*2; }; &lt;br&gt;
+} ();
+
+&lt;br&gt;&lt;br&gt;
+Cómo se evaluará la siguiente expresión: f_1(true)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>0</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>undefined</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>function cero() {..}</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>function uno() {..}</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 2</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Si tenemos las siguientes definiciones de funciones:
+&lt;br&gt;&lt;br&gt;
+
+function f_1 (x) { &lt;br&gt;
+function cero () { return 0; }; &lt;br&gt;
+function uno () { return 1; }; &lt;br&gt;
+if (x) { return uno; } else { return cero; } &lt;br&gt;
+}; &lt;br&gt;&lt;br&gt;
+var f_2 = function () { &lt;br&gt;
+var x = 1; &lt;br&gt;
+return function () { return x = x*2; }; &lt;br&gt;
+} ();
+
+&lt;br&gt;&lt;br&gt;
+Cómo se evaluará la siguiente expresión: f_1(true)()</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>0</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>1</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>undefined</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>function cero() {..}</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>function uno() {..}</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 3</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Si tenemos las siguientes definiciones de funciones:
+&lt;br&gt;&lt;br&gt;
+
+function f_1 (x) { &lt;br&gt;
+function cero () { return 0; }; &lt;br&gt;
+function uno () { return 1; }; &lt;br&gt;
+if (x) { return uno; } else { return cero; } &lt;br&gt;
+}; &lt;br&gt;&lt;br&gt;
+var f_2 = function () { &lt;br&gt;
+var x = 1; &lt;br&gt;
+return function () { return x = x*2; }; &lt;br&gt;
+} ();
+
+&lt;br&gt;&lt;br&gt;
+Cómo se evaluará la siguiente expresión: </text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text />
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text />
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>0</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>undefined</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>function cero() {..}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>function uno() {..}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 4</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Si tenemos las siguientes definiciones de funciones:
+&lt;br&gt;&lt;br&gt;
+
+function f_1 (x) { &lt;br&gt;
+function cero () { return 0; }; &lt;br&gt;
+function uno () { return 1; }; &lt;br&gt;
+if (x) { return uno; } else { return cero; } &lt;br&gt;
+}; &lt;br&gt;&lt;br&gt;
+var f_2 = function () { &lt;br&gt;
+var x = 1; &lt;br&gt;
+return function () { return x = x*2; }; &lt;br&gt;
+} ();
+
+&lt;br&gt;&lt;br&gt;
+Cómo se evaluará la siguiente expresión: f_1()</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text />
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text />
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>0</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>undefined</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>function cero() {..}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>function uno() {..}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 5</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Si tenemos las siguientes definiciones de funciones:
+&lt;br&gt;&lt;br&gt;
+
+function f_1 (x) { &lt;br&gt;
+function cero () { return 0; }; &lt;br&gt;
+function uno () { return 1; }; &lt;br&gt;
+if (x) { return uno; } else { return cero; } &lt;br&gt;
+}; &lt;br&gt;&lt;br&gt;
+var f_2 = function () { &lt;br&gt;
+var x = 1; &lt;br&gt;
+return function () { return x = x*2; }; &lt;br&gt;
+} ();
+
+&lt;br&gt;&lt;br&gt;
+Cómo se evaluará la siguiente expresión: </text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text />
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text />
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>0</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>undefined</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>function cero() {..}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>function uno() {..}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 6</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Si tenemos las siguientes definiciones de funciones:
+&lt;br&gt;&lt;br&gt;
+
+function f_1 (x) { &lt;br&gt;
+function cero () { return 0; }; &lt;br&gt;
+function uno () { return 1; }; &lt;br&gt;
+if (x) { return uno; } else { return cero; } &lt;br&gt;
+}; &lt;br&gt;&lt;br&gt;
+var f_2 = function () { &lt;br&gt;
+var x = 1; &lt;br&gt;
+return function () { return x = x*2; }; &lt;br&gt;
+} ();
+
+&lt;br&gt;&lt;br&gt;
+Cómo se evaluará la siguiente expresión: f_1()(false)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text />
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text />
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>0</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>1</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>undefined</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>function cero() {..}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>function uno() {..}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 7</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Si tenemos las siguientes definiciones de funciones:
+&lt;br&gt;&lt;br&gt;
+
+function f_1 (x) { &lt;br&gt;
+function cero () { return 0; }; &lt;br&gt;
+function uno () { return 1; }; &lt;br&gt;
+if (x) { return uno; } else { return cero; } &lt;br&gt;
+}; &lt;br&gt;&lt;br&gt;
+var f_2 = function () { &lt;br&gt;
+var x = 1; &lt;br&gt;
+return function () { return x = x*2; }; &lt;br&gt;
+} ();
+
+&lt;br&gt;&lt;br&gt;
+Cómo se evaluará la siguiente expresión: f_1(false)()()</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text />
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text />
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>0</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>undefined</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>function cero() {..}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>function uno() {..}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 8</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Si tenemos las siguientes definiciones de funciones:
+&lt;br&gt;&lt;br&gt;
+
+function f_1 (x) { &lt;br&gt;
+function cero () { return 0; }; &lt;br&gt;
+function uno () { return 1; }; &lt;br&gt;
+if (x) { return uno; } else { return cero; } &lt;br&gt;
+}; &lt;br&gt;&lt;br&gt;
+var f_2 = function () { &lt;br&gt;
+var x = 1; &lt;br&gt;
+return function () { return x = x*2; }; &lt;br&gt;
+} ();
+
+&lt;br&gt;&lt;br&gt;
+Qué número devolverá la última vez se invoque la función f_2(), si esta se
+ha invocado n veces seguidas después de haber sido definida: </text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text />
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text />
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>0</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>undefined</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>function cero() {..}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>function uno() {..}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 8</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Si tenemos las siguientes definiciones de funciones:
+&lt;br&gt;&lt;br&gt;
+
+function f_1 (x) { &lt;br&gt;
+function cero () { return 0; }; &lt;br&gt;
+function uno () { return 1; }; &lt;br&gt;
+if (x) { return uno; } else { return cero; } &lt;br&gt;
+}; &lt;br&gt;&lt;br&gt;
+var f_2 = function () { &lt;br&gt;
+var x = 1; &lt;br&gt;
+return function () { return x = x*2; }; &lt;br&gt;
+} ();
+
+&lt;br&gt;&lt;br&gt;
+Qué número devolverá la última vez se invoque la función f_2(), si esta se
+ha invocado n veces seguidas después de haber sido definida: </text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text />
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text />
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>0</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>undefined</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>function cero() {..}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>function uno() {..}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 8</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Si tenemos las siguientes definiciones de funciones:
+&lt;br&gt;&lt;br&gt;
+
+function f_1 (x) { &lt;br&gt;
+function cero () { return 0; }; &lt;br&gt;
+function uno () { return 1; }; &lt;br&gt;
+if (x) { return uno; } else { return cero; } &lt;br&gt;
+}; &lt;br&gt;&lt;br&gt;
+var f_2 = function () { &lt;br&gt;
+var x = 1; &lt;br&gt;
+return function () { return x = x*2; }; &lt;br&gt;
+} ();
+
+&lt;br&gt;&lt;br&gt;
+Qué número devolverá la última vez se invoque la función f_2(), si esta se
+ha invocado n veces seguidas después de haber sido definida: </text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text />
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text />
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>0</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>undefined</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>function cero() {..}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>function uno() {..}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 8</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Si tenemos las siguientes definiciones de funciones:
+&lt;br&gt;&lt;br&gt;
+
+function f_1 (x) { &lt;br&gt;
+function cero () { return 0; }; &lt;br&gt;
+function uno () { return 1; }; &lt;br&gt;
+if (x) { return uno; } else { return cero; } &lt;br&gt;
+}; &lt;br&gt;&lt;br&gt;
+var f_2 = function () { &lt;br&gt;
+var x = 1; &lt;br&gt;
+return function () { return x = x*2; }; &lt;br&gt;
+} ();
+
+&lt;br&gt;&lt;br&gt;
+Qué número devolverá la última vez se invoque la función f_2(), si esta se
+ha invocado n veces seguidas después de haber sido definida: </text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text />
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text />
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>0</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>undefined</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>function cero() {..}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>function uno() {..}</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+  </question>
+</quiz>

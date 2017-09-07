@@ -1,0 +1,827 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<quiz>
+  <question type="category">
+    <category>
+      <text>$course$/JavaSscript - Objetos propiedades metods DOM</text>
+    </category>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 1</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Si tenemos una página HTML cargada con el siguiente contenido: &lt;br&gt;
+&lt;!DOCTYPE html&gt;&lt;html&gt; .... &lt;body&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h4 id="id1" &gt;Título&lt;/h4&gt; &lt;p id="id2"&gt;Casa&lt;/p&gt; &lt;div id="id3"&gt;&lt;/div&gt; &lt;br&gt;
+&lt;script type=“text/javascript"&gt; &lt;br&gt;
+var x = document.getElementById("id1"); &lt;br&gt;
+var y = document.getElementById("id2"); &lt;br&gt;
+var z = document.getElementById("id3"); &lt;br&gt;
+&lt;/script&gt; &lt;br&gt;
+&lt;/body&gt;&lt;/html&gt;
+&lt;br&gt;
+&lt;br&gt;
+Cómo se evaluará la siguiente expresión si se añadiese como última instrucción
+del script: x.innerHTML</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>""</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Título</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;h4 id="id1"&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Título&lt;/h4&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Coche</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;p id=“id2”&gt;Casa&lt;/p&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Casa</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;div id=“id3"&gt;&lt;/div&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 2</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Si tenemos una página HTML cargada con el siguiente contenido: &lt;br&gt;
+&lt;!DOCTYPE html&gt;&lt;html&gt; .... &lt;body&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h4 id="id1" &gt;Título&lt;/h4&gt; &lt;p id="id2"&gt;Casa&lt;/p&gt; &lt;div id="id3"&gt;&lt;/div&gt; &lt;br&gt;
+&lt;script type=“text/javascript"&gt; &lt;br&gt;
+var x = document.getElementById("id1"); &lt;br&gt;
+var y = document.getElementById("id2"); &lt;br&gt;
+var z = document.getElementById("id3"); &lt;br&gt;
+&lt;/script&gt; &lt;br&gt;
+&lt;/body&gt;&lt;/html&gt;
+&lt;br&gt;
+&lt;br&gt;
+Cómo se evaluará la siguiente expresión si se añadiese como última instrucción
+del script: y.innerHTML</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>""</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Título</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;h4 id="id1"&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Título&lt;/h4&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Coche</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;p id=“id2”&gt;Casa&lt;/p&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Casa</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;div id=“id3"&gt;&lt;/div&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 3</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Si tenemos una página HTML cargada con el siguiente contenido: &lt;br&gt;
+&lt;!DOCTYPE html&gt;&lt;html&gt; .... &lt;body&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h4 id="id1" &gt;Título&lt;/h4&gt; &lt;p id="id2"&gt;Casa&lt;/p&gt; &lt;div id="id3"&gt;&lt;/div&gt; &lt;br&gt;
+&lt;script type=“text/javascript"&gt; &lt;br&gt;
+var x = document.getElementById("id1"); &lt;br&gt;
+var y = document.getElementById("id2"); &lt;br&gt;
+var z = document.getElementById("id3"); &lt;br&gt;
+&lt;/script&gt; &lt;br&gt;
+&lt;/body&gt;&lt;/html&gt;
+&lt;br&gt;
+&lt;br&gt;
+Cómo se evaluará la siguiente expresión si se añadiese como última instrucción
+del script: z.innerHTML</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="100">
+      <text>""</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Título</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;h4 id="id1"&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Título&lt;/h4&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Coche</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;p id=“id2”&gt;Casa&lt;/p&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Casa</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;div id=“id3"&gt;&lt;/div&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 4</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Si tenemos una página HTML cargada con el siguiente contenido: &lt;br&gt;
+&lt;!DOCTYPE html&gt;&lt;html&gt; .... &lt;body&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h4 id="id1" &gt;Título&lt;/h4&gt; &lt;p id="id2"&gt;Casa&lt;/p&gt; &lt;div id="id3"&gt;&lt;/div&gt; &lt;br&gt;
+&lt;script type=“text/javascript"&gt; &lt;br&gt;
+var x = document.getElementById("id1"); &lt;br&gt;
+var y = document.getElementById("id2"); &lt;br&gt;
+var z = document.getElementById("id3"); &lt;br&gt;
+&lt;/script&gt; &lt;br&gt;
+&lt;/body&gt;&lt;/html&gt;
+&lt;br&gt;
+&lt;br&gt;
+Cómo se evaluará la siguiente expresión si se añadiese como última instrucción
+del script: x.outerHTML</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>""</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Título</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;h4 id="id1"&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Título&lt;/h4&gt;</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Coche</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;p id=“id2”&gt;Casa&lt;/p&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Casa</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;div id=“id3"&gt;&lt;/div&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 5</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Si tenemos una página HTML cargada con el siguiente contenido: &lt;br&gt;
+&lt;!DOCTYPE html&gt;&lt;html&gt; .... &lt;body&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h4 id="id1" &gt;Título&lt;/h4&gt; &lt;p id="id2"&gt;Casa&lt;/p&gt; &lt;div id="id3"&gt;&lt;/div&gt; &lt;br&gt;
+&lt;script type=“text/javascript"&gt; &lt;br&gt;
+var x = document.getElementById("id1"); &lt;br&gt;
+var y = document.getElementById("id2"); &lt;br&gt;
+var z = document.getElementById("id3"); &lt;br&gt;
+&lt;/script&gt; &lt;br&gt;
+&lt;/body&gt;&lt;/html&gt;
+&lt;br&gt;
+&lt;br&gt;
+Cómo se evaluará la siguiente expresión si se añadiese como última instrucción
+del script: y.ouoterHTML</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>""</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Título</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;h4 id="id1"&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Título&lt;/h4&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Coche</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;p id=“id2”&gt;Casa&lt;/p&gt;</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Casa</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;div id=“id3"&gt;&lt;/div&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 6</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Si tenemos una página HTML cargada con el siguiente contenido: &lt;br&gt;
+&lt;!DOCTYPE html&gt;&lt;html&gt; .... &lt;body&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h4 id="id1" &gt;Título&lt;/h4&gt; &lt;p id="id2"&gt;Casa&lt;/p&gt; &lt;div id="id3"&gt;&lt;/div&gt; &lt;br&gt;
+&lt;script type=“text/javascript"&gt; &lt;br&gt;
+var x = document.getElementById("id1"); &lt;br&gt;
+var y = document.getElementById("id2"); &lt;br&gt;
+var z = document.getElementById("id3"); &lt;br&gt;
+&lt;/script&gt; &lt;br&gt;
+&lt;/body&gt;&lt;/html&gt;
+&lt;br&gt;
+&lt;br&gt;
+Cómo se evaluará la siguiente expresión si se añadiese como última instrucción
+del script: z.outerHTML</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>""</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Título</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;h4 id="id1"&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Título&lt;/h4&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Coche</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;p id=“id2”&gt;Casa&lt;/p&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Casa</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>&lt;div id=“id3"&gt;&lt;/div&gt;</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 7</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Si tenemos una página HTML cargada con el siguiente contenido: &lt;br&gt;
+&lt;!DOCTYPE html&gt;&lt;html&gt; .... &lt;body&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h4 id="id1" &gt;Título&lt;/h4&gt; &lt;p id="id2"&gt;Casa&lt;/p&gt; &lt;div id="id3"&gt;&lt;/div&gt; &lt;br&gt;
+&lt;script type=“text/javascript"&gt; &lt;br&gt;
+var x = document.getElementById("id1"); &lt;br&gt;
+var y = document.getElementById("id2"); &lt;br&gt;
+var z = document.getElementById("id3"); &lt;br&gt;
+&lt;/script&gt; &lt;br&gt;
+&lt;/body&gt;&lt;/html&gt;
+&lt;br&gt;
+&lt;br&gt;
+Si se añade al final del script la instrucción x.innerHTML = "" como se evaluará
+la siguiente expresión: x.innerHTML</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="100">
+      <text>""</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Título</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;h4 id="id1"&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Título&lt;/h4&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Coche</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;p id=“id2”&gt;Casa&lt;/p&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Casa</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;div id=“id3"&gt;&lt;/div&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 8</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Si tenemos una página HTML cargada con el siguiente contenido: &lt;br&gt;
+&lt;!DOCTYPE html&gt;&lt;html&gt; .... &lt;body&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h4 id="id1" &gt;Título&lt;/h4&gt; &lt;p id="id2"&gt;Casa&lt;/p&gt; &lt;div id="id3"&gt;&lt;/div&gt; &lt;br&gt;
+&lt;script type=“text/javascript"&gt; &lt;br&gt;
+var x = document.getElementById("id1"); &lt;br&gt;
+var y = document.getElementById("id2"); &lt;br&gt;
+var z = document.getElementById("id3"); &lt;br&gt;
+&lt;/script&gt; &lt;br&gt;
+&lt;/body&gt;&lt;/html&gt;
+&lt;br&gt;
+&lt;br&gt;
+Si se añade al final del script la instrucción x.innerHTML = "" como se evaluará
+la siguiente expresión: y.innerHTML</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>""</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Título</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;h4 id="id1"&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Título&lt;/h4&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Coche</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;p id=“id2”&gt;Casa&lt;/p&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Casa</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;div id=“id3"&gt;&lt;/div&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 9</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Si tenemos una página HTML cargada con el siguiente contenido: &lt;br&gt;
+&lt;!DOCTYPE html&gt;&lt;html&gt; .... &lt;body&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h4 id="id1" &gt;Título&lt;/h4&gt; &lt;p id="id2"&gt;Casa&lt;/p&gt; &lt;div id="id3"&gt;&lt;/div&gt; &lt;br&gt;
+&lt;script type=“text/javascript"&gt; &lt;br&gt;
+var x = document.getElementById("id1"); &lt;br&gt;
+var y = document.getElementById("id2"); &lt;br&gt;
+var z = document.getElementById("id3"); &lt;br&gt;
+&lt;/script&gt; &lt;br&gt;
+&lt;/body&gt;&lt;/html&gt;
+&lt;br&gt;
+&lt;br&gt;
+Si se añade al final del script la instrucción x.innerHTML = "" como se evaluará
+la siguiente expresión: z.innerHTML</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="100">
+      <text>""</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Título</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;h4 id="id1"&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Título&lt;/h4&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Coche</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;p id=“id2”&gt;Casa&lt;/p&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Casa</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>&lt;div id=“id3"&gt;&lt;/div&gt;</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

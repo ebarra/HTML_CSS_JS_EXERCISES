@@ -1,0 +1,1078 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<quiz>
+  <question type="category">
+    <category>
+      <text>$course$/JavaScript - Booleanos sentencia IF-ELSE</text>
+    </category>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 1</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dadas las siguientes definiciones de funciones:
+
+&lt;br&gt;&lt;br&gt;
+function f_1 (x) { &lt;br&gt;
+if (x) { &lt;br&gt;
+return 8; &lt;br&gt;
+} else { &lt;br&gt;
+return "7"; &lt;br&gt;
+  } &lt;br&gt;
+} ; &lt;br&gt;
+&lt;br&gt;
+function f_2 (x) { &lt;br&gt;
+return ((4 &lt;= x)&amp;&amp;(x &lt; 7)); &lt;br&gt;
+} ; &lt;br&gt;
+
+function f_3 (x) { &lt;br&gt;
+if ((x % 2) === 0) { &lt;br&gt;
+return "par"; &lt;br&gt;
+} else { &lt;br&gt;
+return "impar"; &lt;br&gt;
+  } &lt;br&gt;
+} ; &lt;br&gt;
+&lt;br&gt;
+
+Cómo se evaluarán las siguientes expresiones: f_1 (true)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>7</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"7"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>8</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"8"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"par"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"impar"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>true</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 2</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dadas las siguientes definiciones de funciones:
+
+&lt;br&gt;&lt;br&gt;
+function f_1 (x) { &lt;br&gt;
+if (x) { &lt;br&gt;
+return 8; &lt;br&gt;
+} else { &lt;br&gt;
+return "7"; &lt;br&gt;
+  } &lt;br&gt;
+} ; &lt;br&gt;
+&lt;br&gt;
+function f_2 (x) { &lt;br&gt;
+return ((4 &lt;= x)&amp;&amp;(x &lt; 7)); &lt;br&gt;
+} ; &lt;br&gt;
+
+function f_3 (x) { &lt;br&gt;
+if ((x % 2) === 0) { &lt;br&gt;
+return "par"; &lt;br&gt;
+} else { &lt;br&gt;
+return "impar"; &lt;br&gt;
+  } &lt;br&gt;
+} ; &lt;br&gt;
+&lt;br&gt;
+
+Cómo se evaluarán las siguientes expresiones: f_1 (false)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>7</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>"7"</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>8</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"8"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"par"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"impar"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>true</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 3</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dadas las siguientes definiciones de funciones:
+
+&lt;br&gt;&lt;br&gt;
+function f_1 (x) { &lt;br&gt;
+if (x) { &lt;br&gt;
+return 8; &lt;br&gt;
+} else { &lt;br&gt;
+return "7"; &lt;br&gt;
+  } &lt;br&gt;
+} ; &lt;br&gt;
+&lt;br&gt;
+function f_2 (x) { &lt;br&gt;
+return ((4 &lt;= x)&amp;&amp;(x &lt; 7)); &lt;br&gt;
+} ; &lt;br&gt;
+
+function f_3 (x) { &lt;br&gt;
+if ((x % 2) === 0) { &lt;br&gt;
+return "par"; &lt;br&gt;
+} else { &lt;br&gt;
+return "impar"; &lt;br&gt;
+  } &lt;br&gt;
+} ; &lt;br&gt;
+&lt;br&gt;
+
+Cómo se evaluarán las siguientes expresiones: f_2 (3)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>7</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"7"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>8</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"8"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"par"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"impar"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>true</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>false</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 4</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dadas las siguientes definiciones de funciones:
+
+&lt;br&gt;&lt;br&gt;
+function f_1 (x) { &lt;br&gt;
+if (x) { &lt;br&gt;
+return 8; &lt;br&gt;
+} else { &lt;br&gt;
+return "7"; &lt;br&gt;
+  } &lt;br&gt;
+} ; &lt;br&gt;
+&lt;br&gt;
+function f_2 (x) { &lt;br&gt;
+return ((4 &lt;= x)&amp;&amp;(x &lt; 7)); &lt;br&gt;
+} ; &lt;br&gt;
+
+function f_3 (x) { &lt;br&gt;
+if ((x % 2) === 0) { &lt;br&gt;
+return "par"; &lt;br&gt;
+} else { &lt;br&gt;
+return "impar"; &lt;br&gt;
+  } &lt;br&gt;
+} ; &lt;br&gt;
+&lt;br&gt;
+
+Cómo se evaluarán las siguientes expresiones: f_2 (4)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>7</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"7"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>8</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"8"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"par"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"impar"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>true</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 5</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dadas las siguientes definiciones de funciones:
+
+&lt;br&gt;&lt;br&gt;
+function f_1 (x) { &lt;br&gt;
+if (x) { &lt;br&gt;
+return 8; &lt;br&gt;
+} else { &lt;br&gt;
+return "7"; &lt;br&gt;
+  } &lt;br&gt;
+} ; &lt;br&gt;
+&lt;br&gt;
+function f_2 (x) { &lt;br&gt;
+return ((4 &lt;= x)&amp;&amp;(x &lt; 7)); &lt;br&gt;
+} ; &lt;br&gt;
+
+function f_3 (x) { &lt;br&gt;
+if ((x % 2) === 0) { &lt;br&gt;
+return "par"; &lt;br&gt;
+} else { &lt;br&gt;
+return "impar"; &lt;br&gt;
+  } &lt;br&gt;
+} ; &lt;br&gt;
+&lt;br&gt;
+
+Cómo se evaluarán las siguientes expresiones: f_2 (5)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>7</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"7"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>8</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"8"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"par"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"impar"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>true</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 6</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dadas las siguientes definiciones de funciones:
+
+&lt;br&gt;&lt;br&gt;
+function f_1 (x) { &lt;br&gt;
+if (x) { &lt;br&gt;
+return 8; &lt;br&gt;
+} else { &lt;br&gt;
+return "7"; &lt;br&gt;
+  } &lt;br&gt;
+} ; &lt;br&gt;
+&lt;br&gt;
+function f_2 (x) { &lt;br&gt;
+return ((4 &lt;= x)&amp;&amp;(x &lt; 7)); &lt;br&gt;
+} ; &lt;br&gt;
+
+function f_3 (x) { &lt;br&gt;
+if ((x % 2) === 0) { &lt;br&gt;
+return "par"; &lt;br&gt;
+} else { &lt;br&gt;
+return "impar"; &lt;br&gt;
+  } &lt;br&gt;
+} ; &lt;br&gt;
+&lt;br&gt;
+
+Cómo se evaluarán las siguientes expresiones: f_2 (7)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>7</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"7"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>8</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"8"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"par"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"impar"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>true</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>false</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 7</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dadas las siguientes definiciones de funciones:
+
+&lt;br&gt;&lt;br&gt;
+function f_1 (x) { &lt;br&gt;
+if (x) { &lt;br&gt;
+return 8; &lt;br&gt;
+} else { &lt;br&gt;
+return "7"; &lt;br&gt;
+  } &lt;br&gt;
+} ; &lt;br&gt;
+&lt;br&gt;
+function f_2 (x) { &lt;br&gt;
+return ((4 &lt;= x)&amp;&amp;(x &lt; 7)); &lt;br&gt;
+} ; &lt;br&gt;
+
+function f_3 (x) { &lt;br&gt;
+if ((x % 2) === 0) { &lt;br&gt;
+return "par"; &lt;br&gt;
+} else { &lt;br&gt;
+return "impar"; &lt;br&gt;
+  } &lt;br&gt;
+} ; &lt;br&gt;
+&lt;br&gt;
+
+Cómo se evaluarán las siguientes expresiones: f_3 (0)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>7</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"7"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>8</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"8"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>"par"</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"impar"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>true</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 8</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dadas las siguientes definiciones de funciones:
+
+&lt;br&gt;&lt;br&gt;
+function f_1 (x) { &lt;br&gt;
+if (x) { &lt;br&gt;
+return 8; &lt;br&gt;
+} else { &lt;br&gt;
+return "7"; &lt;br&gt;
+  } &lt;br&gt;
+} ; &lt;br&gt;
+&lt;br&gt;
+function f_2 (x) { &lt;br&gt;
+return ((4 &lt;= x)&amp;&amp;(x &lt; 7)); &lt;br&gt;
+} ; &lt;br&gt;
+
+function f_3 (x) { &lt;br&gt;
+if ((x % 2) === 0) { &lt;br&gt;
+return "par"; &lt;br&gt;
+} else { &lt;br&gt;
+return "impar"; &lt;br&gt;
+  } &lt;br&gt;
+} ; &lt;br&gt;
+&lt;br&gt;
+
+Cómo se evaluarán las siguientes expresiones: f_3 (1)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>7</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"7"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>8</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"8"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"par"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>"impar"</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>true</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 9</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dadas las siguientes definiciones de funciones:
+
+&lt;br&gt;&lt;br&gt;
+function f_1 (x) { &lt;br&gt;
+if (x) { &lt;br&gt;
+return 8; &lt;br&gt;
+} else { &lt;br&gt;
+return "7"; &lt;br&gt;
+  } &lt;br&gt;
+} ; &lt;br&gt;
+&lt;br&gt;
+function f_2 (x) { &lt;br&gt;
+return ((4 &lt;= x)&amp;&amp;(x &lt; 7)); &lt;br&gt;
+} ; &lt;br&gt;
+
+function f_3 (x) { &lt;br&gt;
+if ((x % 2) === 0) { &lt;br&gt;
+return "par"; &lt;br&gt;
+} else { &lt;br&gt;
+return "impar"; &lt;br&gt;
+  } &lt;br&gt;
+} ; &lt;br&gt;
+&lt;br&gt;
+
+Cómo se evaluarán las siguientes expresiones: f_3 (3)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>7</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"7"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>8</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"8"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"par"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>"impar"</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>true</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 10</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dadas las siguientes definiciones de funciones:
+
+&lt;br&gt;&lt;br&gt;
+function f_1 (x) { &lt;br&gt;
+if (x) { &lt;br&gt;
+return 8; &lt;br&gt;
+} else { &lt;br&gt;
+return "7"; &lt;br&gt;
+  } &lt;br&gt;
+} ; &lt;br&gt;
+&lt;br&gt;
+function f_2 (x) { &lt;br&gt;
+return ((4 &lt;= x)&amp;&amp;(x &lt; 7)); &lt;br&gt;
+} ; &lt;br&gt;
+
+function f_3 (x) { &lt;br&gt;
+if ((x % 2) === 0) { &lt;br&gt;
+return "par"; &lt;br&gt;
+} else { &lt;br&gt;
+return "impar"; &lt;br&gt;
+  } &lt;br&gt;
+} ; &lt;br&gt;
+&lt;br&gt;
+
+Cómo se evaluarán las siguientes expresiones: f_3 (6)</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>7</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"7"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>8</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"8"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>"par"</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"impar"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>true</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

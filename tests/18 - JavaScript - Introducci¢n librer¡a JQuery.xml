@@ -1,0 +1,728 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<quiz>
+  <question type="category">
+    <category>
+      <text>$course$/JavaScript - Introducción librería JQuery</text>
+    </category>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 1</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dada una página HTML que utiliza la librería Zepto con el siguiente contenido:
+&lt;br&gt;&lt;br&gt;
+
+&lt;!DOCTYPE html&gt; &lt;br&gt;
+&lt;html&gt; .... &lt;body&gt; &lt;br&gt;
+&lt;h4 id="id1" &gt;Título&lt;/h4&gt; &lt;br&gt;
+&lt;p id="id2"&gt;Coche&lt;/p&gt; &lt;br&gt;
+&lt;div id="id3"&gt;&lt;/div&gt; &lt;br&gt;
+&lt;div id="id4" class="Casa"&gt;Casa&lt;/div&gt; &lt;br&gt;
+&lt;script type="text/javascript"&gt; ...script con expresiones de abajo ... &lt;/script&gt; &lt;br&gt;
+&lt;/body&gt; &lt;br&gt;
+&lt;/html&gt; &lt;br&gt;
+
+&lt;br&gt;&lt;br&gt;
+
+Cómo se evaluarán las siguientes expresiones si estuviesen en el script: $("#id1").html()</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>undefined o null</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>""</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>"Título"</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"Coche"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"Casa</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 2</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dada una página HTML que utiliza la librería Zepto con el siguiente contenido:
+&lt;br&gt;&lt;br&gt;
+
+&lt;!DOCTYPE html&gt; &lt;br&gt;
+&lt;html&gt; .... &lt;body&gt; &lt;br&gt;
+&lt;h4 id="id1" &gt;Título&lt;/h4&gt; &lt;br&gt;
+&lt;p id="id2"&gt;Coche&lt;/p&gt; &lt;br&gt;
+&lt;div id="id3"&gt;&lt;/div&gt; &lt;br&gt;
+&lt;div id="id4" class="Casa"&gt;Casa&lt;/div&gt; &lt;br&gt;
+&lt;script type="text/javascript"&gt; ...script con expresiones de abajo ... &lt;/script&gt; &lt;br&gt;
+&lt;/body&gt; &lt;br&gt;
+&lt;/html&gt; &lt;br&gt;
+
+&lt;br&gt;&lt;br&gt;
+
+Cómo se evaluarán las siguientes expresiones si estuviesen en el script: $("#id2").html()</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>undefined o null</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>""</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"Título"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>"Coche"</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"Casa</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 3</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dada una página HTML que utiliza la librería Zepto con el siguiente contenido:
+&lt;br&gt;&lt;br&gt;
+
+&lt;!DOCTYPE html&gt; &lt;br&gt;
+&lt;html&gt; .... &lt;body&gt; &lt;br&gt;
+&lt;h4 id="id1" &gt;Título&lt;/h4&gt; &lt;br&gt;
+&lt;p id="id2"&gt;Coche&lt;/p&gt; &lt;br&gt;
+&lt;div id="id3"&gt;&lt;/div&gt; &lt;br&gt;
+&lt;div id="id4" class="Casa"&gt;Casa&lt;/div&gt; &lt;br&gt;
+&lt;script type="text/javascript"&gt; ...script con expresiones de abajo ... &lt;/script&gt; &lt;br&gt;
+&lt;/body&gt; &lt;br&gt;
+&lt;/html&gt; &lt;br&gt;
+
+&lt;br&gt;&lt;br&gt;
+
+Cómo se evaluarán las siguientes expresiones si estuviesen en el script:: $("#id3").attr("innerHTML")</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>undefined o null</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>""</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"Título"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"Coche"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"Casa</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 4</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dada una página HTML que utiliza la librería Zepto con el siguiente contenido:
+&lt;br&gt;&lt;br&gt;
+
+&lt;!DOCTYPE html&gt; &lt;br&gt;
+&lt;html&gt; .... &lt;body&gt; &lt;br&gt;
+&lt;h4 id="id1" &gt;Título&lt;/h4&gt; &lt;br&gt;
+&lt;p id="id2"&gt;Coche&lt;/p&gt; &lt;br&gt;
+&lt;div id="id3"&gt;&lt;/div&gt; &lt;br&gt;
+&lt;div id="id4" class="Casa"&gt;Casa&lt;/div&gt; &lt;br&gt;
+&lt;script type="text/javascript"&gt; ...script con expresiones de abajo ... &lt;/script&gt; &lt;br&gt;
+&lt;/body&gt; &lt;br&gt;
+&lt;/html&gt; &lt;br&gt;
+
+&lt;br&gt;&lt;br&gt;
+
+Cómo se evaluarán las siguientes expresiones si estuviesen en el script:: $("#id4").html()</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>undefined o null</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>""</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"Título"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"Coche"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>"Casa</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 5</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dada una página HTML que utiliza la librería Zepto con el siguiente contenido:
+&lt;br&gt;&lt;br&gt;
+
+&lt;!DOCTYPE html&gt; &lt;br&gt;
+&lt;html&gt; .... &lt;body&gt; &lt;br&gt;
+&lt;h4 id="id1" &gt;Título&lt;/h4&gt; &lt;br&gt;
+&lt;p id="id2"&gt;Coche&lt;/p&gt; &lt;br&gt;
+&lt;div id="id3"&gt;&lt;/div&gt; &lt;br&gt;
+&lt;div id="id4" class="Casa"&gt;Casa&lt;/div&gt; &lt;br&gt;
+&lt;script type="text/javascript"&gt; ...script con expresiones de abajo ... &lt;/script&gt; &lt;br&gt;
+&lt;/body&gt; &lt;br&gt;
+&lt;/html&gt; &lt;br&gt;
+
+&lt;br&gt;&lt;br&gt;
+
+Cómo se evaluarán las siguientes expresiones si estuviesen en el script:: $(".Casa").html()</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>undefined o null</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>""</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"Título"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"Coche"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>"Casa</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 6</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dada una página HTML que utiliza la librería Zepto con el siguiente contenido:
+&lt;br&gt;&lt;br&gt;
+
+&lt;!DOCTYPE html&gt; &lt;br&gt;
+&lt;html&gt; .... &lt;body&gt; &lt;br&gt;
+&lt;h4 id="id1" &gt;Título&lt;/h4&gt; &lt;br&gt;
+&lt;p id="id2"&gt;Coche&lt;/p&gt; &lt;br&gt;
+&lt;div id="id3"&gt;&lt;/div&gt; &lt;br&gt;
+&lt;div id="id4" class="Casa"&gt;Casa&lt;/div&gt; &lt;br&gt;
+&lt;script type="text/javascript"&gt; ...script con expresiones de abajo ... &lt;/script&gt; &lt;br&gt;
+&lt;/body&gt; &lt;br&gt;
+&lt;/html&gt; &lt;br&gt;
+
+&lt;br&gt;&lt;br&gt;
+
+Cómo se evaluarán las siguientes expresiones si estuviesen en el script:: $(".Casa").attr("innerHTML")</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>undefined o null</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>""</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"Título"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"Coche"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>"Casa</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 7</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dada una página HTML que utiliza la librería Zepto con el siguiente contenido:
+&lt;br&gt;&lt;br&gt;
+
+&lt;!DOCTYPE html&gt; &lt;br&gt;
+&lt;html&gt; .... &lt;body&gt; &lt;br&gt;
+&lt;h4 id="id1" &gt;Título&lt;/h4&gt; &lt;br&gt;
+&lt;p id="id2"&gt;Coche&lt;/p&gt; &lt;br&gt;
+&lt;div id="id3"&gt;&lt;/div&gt; &lt;br&gt;
+&lt;div id="id4" class="Casa"&gt;Casa&lt;/div&gt; &lt;br&gt;
+&lt;script type="text/javascript"&gt; ...script con expresiones de abajo ... &lt;/script&gt; &lt;br&gt;
+&lt;/body&gt; &lt;br&gt;
+&lt;/html&gt; &lt;br&gt;
+
+&lt;br&gt;&lt;br&gt;
+
+Cómo se evaluarán las siguientes expresiones si estuviesen en el script:: $("#id5").html()</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="100">
+      <text>undefined o null</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>""</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"Título"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"Coche"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"Casa</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 8</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dada una página HTML que utiliza la librería Zepto con el siguiente contenido:
+&lt;br&gt;&lt;br&gt;
+
+&lt;!DOCTYPE html&gt; &lt;br&gt;
+&lt;html&gt; .... &lt;body&gt; &lt;br&gt;
+&lt;h4 id="id1" &gt;Título&lt;/h4&gt; &lt;br&gt;
+&lt;p id="id2"&gt;Coche&lt;/p&gt; &lt;br&gt;
+&lt;div id="id3"&gt;&lt;/div&gt; &lt;br&gt;
+&lt;div id="id4" class="Casa"&gt;Casa&lt;/div&gt; &lt;br&gt;
+&lt;script type="text/javascript"&gt; ...script con expresiones de abajo ... &lt;/script&gt; &lt;br&gt;
+&lt;/body&gt; &lt;br&gt;
+&lt;/html&gt; &lt;br&gt;
+
+&lt;br&gt;&lt;br&gt;
+
+Cómo se evaluarán las siguientes expresiones si estuviesen en el script:: $("#id6").attr("innerHTML")</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text>Correct</text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text>Incorrect</text>
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="100">
+      <text>undefined o null</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>""</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"Título"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"Coche"</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"Casa</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Question 9</text>
+    </name>
+    <questiontext format="HTML">
+      <text>Dada una página HTML que utiliza la librería Zepto con el siguiente contenido:
+&lt;br&gt;&lt;br&gt;
+
+&lt;!DOCTYPE html&gt; &lt;br&gt;
+&lt;html&gt; .... &lt;body&gt; &lt;br&gt;
+&lt;h4 id="id1" &gt;Título&lt;/h4&gt; &lt;br&gt;
+&lt;p id="id2"&gt;Coche&lt;/p&gt; &lt;br&gt;
+&lt;div id="id3"&gt;&lt;/div&gt; &lt;br&gt;
+&lt;div id="id4" class="Casa"&gt;Casa&lt;/div&gt; &lt;br&gt;
+&lt;script type="text/javascript"&gt; ...script con expresiones de abajo ... &lt;/script&gt; &lt;br&gt;
+&lt;/body&gt; &lt;br&gt;
+&lt;/html&gt; &lt;br&gt;
+
+&lt;br&gt;&lt;br&gt;
+
+Cómo se evaluarán las siguientes expresiones si estuviesen en el script:: $("#id4").attr("innerHTML")</text>
+    </questiontext>
+    <image />
+    <image_base64 />
+    <generalfeedback>
+      <text />
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text />
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text>Partly correct</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text />
+    </incorrectfeedback>
+    <answernumbering>123</answernumbering>
+    <answer fraction="0">
+      <text>undefined o null</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>error_de_ejecución</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>""</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"Título"</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"Coche"</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>"Casa"</text>
+      <feedback>
+        <text />
+      </feedback>
+    </answer>
+  </question>
+</quiz>
