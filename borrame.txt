@@ -1,14 +1,7 @@
-Dada una página HTML que carga jQuery en el head y tiene el siguiente contenido:
-
-<!DOCTYPE html>
-<html> .... <body>
-    <h4 id="id1" >Título</h4>
-    <p id="id2">Coche</p>
-    <div id="id3"></div>
-    <div id="id4" class="Casa">Casa</div>
-    <script type="text/javascript"> ...script con expresiones de abajo ... </script>
-</body>
-</html>
+Dado un programa cuyas dos primeras sentencias son:
+var numbers = [62,51,21,33,56];
+var names = ["Fiat", "Toyota", "Peugeot", "Renault", "Mazda"];
 
 
- Cómo se evaluarán las siguientes expresiones si estuviesen en el script: $("#id1").html()
+Si la tercera sentencia es la indicada al final, indicar para cada una el contenido de la variable x después de ejecutarla:
+var x = numbers[1];
