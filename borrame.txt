@@ -1,7 +1,0 @@
-Dado un programa cuyas dos primeras sentencias son:
-var numbers = [62,51,21,33,56];
-var names = ["Fiat", "Toyota", "Peugeot", "Renault", "Mazda"];
-
-
-Si la tercera sentencia es la indicada al final, indicar para cada una el contenido de la variable x después de ejecutarla:
-var x = numbers[1];

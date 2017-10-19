@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Boxes everywhere</title>
+  <style type="text/css">
+    h1#title {
+      color: #255fbc;
+    }
+    article#box1 {
+      width: 300px;
+      background-color: #641251;
+      color: white;
+    }
+    article#box2 {
+      width: 200px;
+      background-color: #122764;
+      color: white;
+    }
+    article#box3 {
+      width: 400px;
+      background-color: #226412;
+      color: white;
+    }
+    section#wrapper article.box {
+      margin-top: 30px;
+    }
+    section#wrapper article.box p {
+      color: #cec65c;
+    }
+  </style>
+</head>
+<body>
+  <section id="wrapper">
+    <h1 id="title">Some boxes</h1>
+    <article id="box1" class="box">
+      This is the first box.
+      <img class="texture" alt="HTML5 logo" src="https://www.w3.org/html/logo/img/badge-samples.png"/>
+    </article>
+    <article id="box2" class="box">
+      This is the second box.
+      <p>
+        With a yellow paragraph inside.
+      </p>
+    </article>
+    <article id="box3" class="box">
+      This is the third box.
+    </article>
+  </section>
+</body>
+</html>
