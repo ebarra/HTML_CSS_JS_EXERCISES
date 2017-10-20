@@ -23,7 +23,7 @@ var score = function(document){
 	  grade.score +=1;
 	  grade.successes.push("The <h1> element has id 'title'.");
 	}
-	if($(document).find("body h1#title").text() !== 'My fist HTML page'){
+	if($(document).find("body h1#title").text() !== 'My first HTML page'){
 	  	grade.errors.push("The <h1> element should have the content 'My first HTML page'");
 	} else {
 	  grade.score +=1;
@@ -65,11 +65,11 @@ var score = function(document){
 	  grade.score +=0;
 	  grade.successes.push("The page has an img element with the right id");
 	}
-	if($(document).find("body img#myimg").width() !== 300 && $(document).find("body img#myimg").height() !==300){
+	if($(document).find("body img#myimg").width() !== 300 || $(document).find("body img#myimg").height() !==300){
 	  	grade.errors.push("The image should have attributes width and height with value 300px");
 	} else {
 	  grade.score +=1;
-	  grade.successes.push("The image has an id myimg");
+	  grade.successes.push("The image has width and height 300px");
 	}
 
   return grade;
