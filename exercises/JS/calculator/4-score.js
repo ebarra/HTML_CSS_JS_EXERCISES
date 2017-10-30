@@ -56,28 +56,6 @@ var score = function(document){
     return returnWithError(document,content,grade,"Calculator should show \"Error\" when any of the arguments is a text instead of a number");
   }
 
-  $(screen).trigger("click");
-  $(screen).val("Gato");
-  $(document).find("#add").trigger("click");
-  $(screen).trigger("click");
-  $(screen).val("2");
-  $(document).find("#equals").trigger("click");
-
-  if($(screen).val() != "Error"){
-    return returnWithError(document,content,grade,"Calculator should show \"Error\" when any of the arguments is a text instead of a number");
-  }
-
-  $(screen).trigger("click");
-  $(screen).val("2");
-  $(document).find("#add").trigger("click");
-  $(screen).trigger("click");
-  $(screen).val("Perro");
-  $(document).find("#equals").trigger("click");
-
-  if($(screen).val() != "Error"){
-    return returnWithError(document,content,grade,"Calculator should show \"Error\" when any of the arguments is a text instead of a number");
-  }
-
   grade.score = 10;
   grade.successes.push("Right.");
 

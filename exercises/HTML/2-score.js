@@ -23,7 +23,7 @@ var score = function(document){
 	  grade.score +=1;
 	  grade.successes.push("The <h1> element has id 'title'.");
 	}
-	if($(document).find("body h1#title").text() !== 'My first HTML page'){
+	if($(document).find("body h1#title").text().trim() !== 'My first HTML page'){
 	  	grade.errors.push("The <h1> element should have the content 'My first HTML page'");
 	} else {
 	  grade.score +=1;

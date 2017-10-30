@@ -71,13 +71,13 @@ var score = function(document){
 	  grade.score +=1;
 	  grade.successes.push("The list contains two items");
 	}
-  if($(document).find("body div#wrapper ul#mylist li").length !== 2 || $($(document).find("body ul#mylist li")[0]).html() === "First item"){
+  if($(document).find("body div#wrapper ul#mylist li").length !== 2 || $($(document).find("body ul#mylist li")[0]).html().trim() !== "First item"){
 	  	grade.errors.push("The first item of the list should contain 'First item'");
 	} else {
 	  grade.score +=1;
 	  grade.successes.push("The first item of the list contains 'First item'");
 	}
-  if($(document).find("body div#wrapper ul#mylist li").length!==2 || $($(document).find("body ul#mylist li")[1]).html() === "Second item"){
+  if($(document).find("body div#wrapper ul#mylist li").length!==2 || $($(document).find("body ul#mylist li")[1]).html().trim() !== "Second item"){
 	  	grade.errors.push("The second item of the list should contain 'Second item'");
 	} else {
 	  grade.score +=1;

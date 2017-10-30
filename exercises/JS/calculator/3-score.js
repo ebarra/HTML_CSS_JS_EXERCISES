@@ -67,51 +67,51 @@ var score = function(document){
 
 	//Check CSS double class selector
 	if($(document).find("div#test2.keyboard button").css("background-color") == "rgb(0, 0, 0)"){
-	  	grade.errors.push("The CSS selector to apply the style to all buttons inside <div class=\"calculator keyboard\"> is not right.");
+	  	grade.errors.push("The CSS selector to apply the style to all buttons inside <div class=\"calculator keyboard\"> is not right. It also applies to all elements that only have the class keyboard.");
 	  	return grade;
 	}
 	if($(document).find("div#test2.keyboard button").css("color") == "rgb(255, 255, 255)"){
-	  	grade.errors.push("The CSS selector to apply the style to all buttons inside <div class=\"calculator keyboard\"> is not right.");
+	  	grade.errors.push("The CSS selector to apply the style to all buttons inside <div class=\"calculator keyboard\"> is not right. It also applies to all elements that only have the class keyboard.");
 	  	return grade;
 	}
 	if($(document).find("div#test2.keyboard button[operation='true']").css("border-top-color") == "rgb(0, 0, 255)"){
-      grade.errors.push("The CSS selector to apply the style to all buttons inside <div class=\"calculator keyboard\">  with attribute 'operation' is not right.");
+      grade.errors.push("The CSS selector to apply the style to all buttons inside <div class=\"calculator keyboard\">  with attribute 'operation' is not right. It also applies to all elements that only have the class keyboard.");
 	  	return grade;
 	}
 
 	if($(document).find("div#test1.calculator button").css("background-color") == "rgb(0, 0, 0)"){
-      grade.errors.push("The CSS selector to apply the style to all buttons inside <div class=\"calculator keyboard\"> is not right.");
+      grade.errors.push("The CSS selector to apply the style to all buttons inside <div class=\"calculator keyboard\"> is not right. It also applies to all elements that only have the class calculator.");
 	  	return grade;
 	}
 	if($(document).find("div#test1.calculator button").css("color") == "rgb(255, 255, 255)"){
-      grade.errors.push("The CSS selector to apply the style to all buttons inside <div class=\"calculator keyboard\"> is not right.");
+      grade.errors.push("The CSS selector to apply the style to all buttons inside <div class=\"calculator keyboard\"> is not right. It also applies to all elements that only have the class calculator.");
 	  	return grade;
 	}
 	if($(document).find("div#test1.calculator button[operation='true']").css("border-top-color") == "rgb(0, 0, 255)"){
-      grade.errors.push("The CSS selector to apply the style to all buttons inside <div class=\"calculator keyboard\"> is not right.");
+      grade.errors.push("The CSS selector to apply the style to all buttons inside <div class=\"calculator keyboard\"> is not right. It also applies to all elements that only have the class calculator.");
 	  	return grade;
 	}
 
 	if($(document).find("article#test3.calculator.keyboard button").css("background-color") == "rgb(0, 0, 0)"){
-      grade.errors.push("The CSS selector to apply the style to all buttons inside <div class=\"calculator keyboard\"> is not right.");
+      grade.errors.push("The CSS selector to apply the style to all buttons inside <div class=\"calculator keyboard\"> is not right.  It also applies to elements that are not divs.");
 	  	return grade;
 	}
 	if($(document).find("article#test3.calculator.keyboard button").css("color") == "rgb(255, 255, 255)"){
-      grade.errors.push("The CSS selector to apply the style to all buttons inside <div class=\"calculator keyboard\"> is not right.");
+      grade.errors.push("The CSS selector to apply the style to all buttons inside <div class=\"calculator keyboard\"> is not right. It also applies to elements that are not divs.");
 	  	return grade;
 	}
 	if($(document).find("article#test3.calculator.keyboard button[operation='true']").css("color") == "rgb(0, 0, 255)"){
-    grade.errors.push("The CSS selector to apply the style to all buttons inside <div class=\"calculator keyboard\">  with attribute 'operation' is not right.");
+    grade.errors.push("The CSS selector to apply the style to all buttons inside <div class=\"calculator keyboard\">  with attribute 'operation' is not right. It also applies to elements that are not divs.");
 	  	return grade;
 	}
 
 	if($(document).find("div.calculator.keyboard button[operation!='true']").css("border-top-color") == "rgb(0, 0, 255)"){
-    grade.errors.push("The CSS selector to apply the style to all buttons inside <div class=\"calculator keyboard\">  with attribute 'operation' is not right.");
+    grade.errors.push("The CSS selector to apply the style to all buttons inside <div class=\"calculator keyboard\">  with attribute 'operation' is not right. It doesn't consider the operation attribute.");
 	  	return grade;
 	}
 	if($(document).find("div.calculator.keyboard input#test6[operation='true']").css("border-top-color") == "rgb(0, 0, 255)"){
       grade.feedback.push();
-      grade.errors.push("The CSS selector to apply the style to all buttons inside <div class=\"calculator keyboard\">  with attribute 'operation' is not right.");
+      grade.errors.push("The CSS selector to apply the style to all buttons inside <div class=\"calculator keyboard\">  with attribute 'operation' is not right. It applies to elements other than buttons.");
 	  	return grade;
 	}
 
