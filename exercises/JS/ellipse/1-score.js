@@ -11,7 +11,6 @@ var score = function (result,variablesHash){
 			grade.errors.push("The value returned in the variable 'ellipse' is not a function.");
 			return grade;
 		}
-		grade.score += 1;
 
 		//Testear la función.
 
@@ -24,17 +23,17 @@ var score = function (result,variablesHash){
 			var testC = ellipse(2,5);
 			if((testA===0)&&(testB===Math.PI)&&(testC===10*Math.PI)){
 				grade.score += 2;
-				grade.successes.push("The' ellipse' function works correctly when' a' and' b' are numbers.");
+				grade.successes.push("The 'ellipse' function works correctly when 'a' and 'b' are numbers.");
 			} else {
-				grade.errors.push("The ellipse function does not correctly calculate the expected value when' a' and' b' are numbers.");
+				grade.errors.push("The ellipse function does not correctly calculate the expected value when 'a' and 'b' are numbers.");
 				if(Math.abs(testB-Math.PI) < 0.1){
 					grade.score += 1;
-					grade.feedback.push("Some calculated values are quite close to the expected one without being exact. Remember that the PI value can be obtained by using the JavaScript Math module in the following way:\"Math. PI\"");
+					grade.feedback.push("Some calculated values are quite close to the expected one without being exact. Remember that the PI value can be obtained by using the JavaScript Math module in the following way:\"Math.PI\"");
 					_feedbackPI = true;
 				}
 			}
 		} catch (e1){
-			grade.errors.push("The' ellipse' function presents execution errors when' a' and' b' are numbers.");
+			grade.errors.push("The 'ellipse' function presents execution errors when 'a' and 'b' are numbers.");
 		}
 
 		if(grade.errors.length > 0){
@@ -48,9 +47,9 @@ var score = function (result,variablesHash){
 			var testF = ellipse([2,5]);
 			if((testD===0)&&(testE===Math.PI)&&(testF===10*Math.PI)){
 				grade.score += 2;
-				grade.successes.push("The' ellipse' function works correctly when' a' is an array.");
+				grade.successes.push("The 'ellipse' function works correctly when 'a' is an array.");
 			} else {
-				grade.errors.push("The' ellipse' function does not correctly calculate the expected value when' a' is an array.");
+				grade.errors.push("The 'ellipse' function does not correctly calculate the expected value when 'a' is an array.");
 				if(Math.abs(testE-Math.PI) < 0.1){
 					grade.score += 1;
 					if(!_feedbackPI){
@@ -60,7 +59,7 @@ var score = function (result,variablesHash){
 				}
 			}
 		} catch (e2){
-			grade.errors.push("The' ellipse' function presents execution errors when' a' is an array.");
+			grade.errors.push("The 'ellipse' function presents execution errors when 'a' is an array.");
 		}
 
 		if(grade.errors.length > 0){
@@ -72,21 +71,21 @@ var score = function (result,variablesHash){
 		try {
 			if((ellipse({})===-1)&&(ellipse(new Date())===-1)){
 				grade.score += 2;
-				grade.successes.push("The' ellipse' function works correctly when' a' is a different object from an array.");
+				grade.successes.push("The 'ellipse' function works correctly when 'a' is a different object from an array.");
 			} else {
-				grade.errors.push("The' ellipse' function does not work properly when' a' is an object other than an array.");
+				grade.errors.push("The 'ellipse' function does not work properly when 'a' is an object other than an array.");
 			}
 		} catch (e2){
-			grade.errors.push("The' ellipse' function presents execution errors when' a' is a different object from an array.");
+			grade.errors.push("The 'ellipse' function presents execution errors when 'a' is a different object from an array.");
 		}
 
 		//Si la función recibe como parámetro un array que no contenga los valores adecuados devolverá -2.
 		try {
 			if((ellipse([])===-2)&&(ellipse([5,"test"])===-2)&&(ellipse([undefined,5])===-2)){
 				grade.score += 1;
-				grade.successes.push("The' ellipse' function works correctly when' a' is an invalid array.");
+				grade.successes.push("The 'ellipse' function works correctly when 'a' is an invalid array.");
 			} else {
-				grade.errors.push("The' ellipse' function does not work properly when' a' is an invalid array.");
+				grade.errors.push("The 'ellipse' function does not work properly when 'a' is an invalid array.");
 			}
 
 			if(ellipse([-1,-1])===-2){
@@ -96,7 +95,7 @@ var score = function (result,variablesHash){
 			}
 
 		} catch (e2){
-			grade.errors.push("The' ellipse' function presents execution errors when' a' is an invalid array.");
+			grade.errors.push("The 'ellipse' function presents execution errors when 'a' is an invalid array.");
 		}
 
 		// En cualquier otro caso en que la función reciba parámetros erroneos deberá devolver el valor -3.
